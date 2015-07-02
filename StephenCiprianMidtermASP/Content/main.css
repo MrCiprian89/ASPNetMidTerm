@@ -1,0 +1,6 @@
+﻿body {
+  /* Margin bottom by footer height so that sticky footer doesnt cover*/
+   margin-bottom: 60px;
+   background-color:lightskyblue;
+   position:relative;
+}
