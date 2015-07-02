@@ -14,6 +14,7 @@
     <!--CSS-->
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
     <link href="../Content/main.css" rel="stylesheet" />
 </head>
 <body>
@@ -65,7 +66,7 @@
             <!--FOOTER-->
             <div class="container-fluid">
                 <footer class="navbar-inverse navbar-fixed-bottom">
-                    <p><h4 class="navbar-text">Stephen Ciprian &copy Copyright <%=DateTime.Now.Year.ToString()%></h4></p>
+                    <p><h4 class="navbar-text">Knowledge Gym &copy Copyright <%=DateTime.Now.Year.ToString()%></h4></p>
                 </footer>
             </div>
             <!--.nav navbar-fixed-bottom navbar-default-->
@@ -73,6 +74,25 @@
         <!--/#PageWrapper-->
     </div>
     <!-- /.container-->
+
+    <!--ABOUT MODAL WINDOW -->
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">About US- Knowledge Gym</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>Knowledge Gym has been helping students succeed since July 2, 2015 at around 2:00pm.</h3>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+        </div><!-- /.modal -->
+
 
     <!--Javascript-->
     <script src="../Scripts/jquery-1.9.1.min.js"></script>

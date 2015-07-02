@@ -1,6 +1,13 @@
 ﻿<%@ Page Title="CoursList" Language="C#" MasterPageFile="~/MasterPages\Default.Master" CodeBehind="Default.aspx.cs" Inherits="StephenCiprianMidtermASP.Courses.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+      <title>School Course Database</title>
+    <link href="../Content/databaseTables.css" rel="stylesheet" />
+</asp:Content>
+
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
+
     <h2>Courses List</h2>
     <p>
         <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
@@ -14,6 +21,7 @@
                 There are no entries found for Courses
             </EmptyDataTemplate>
             <LayoutTemplate>
+                <div class="table-responsive">
                 <table class="table">
                     <thead>
                         <tr>
@@ -39,6 +47,7 @@
                         <tr runat="server" id="itemPlaceholder" />
                     </tbody>
                 </table>
+                    </div>
 				<asp:DataPager PageSize="5"  runat="server">
 					<Fields>
                         <asp:NextPreviousPagerField ShowLastPageButton="False" ShowNextPageButton="False" ButtonType="Button" ButtonCssClass="btn" />

@@ -68,6 +68,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\databaseTables.css" />
     <Content Include="Content\main.css" />
     <Content Include="Courses\Default.aspx" />
     <Content Include="Courses\Delete.aspx" />
@@ -111,6 +112,7 @@
       <DependentUpon>MidtermEntity.edmx</DependentUpon>
       <LastGenOutput>MidtermEntity.cs</LastGenOutput>
     </Content>
+    <None Include="Properties\PublishProfiles\StephenCiprianMidterm.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

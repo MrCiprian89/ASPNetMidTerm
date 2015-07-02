@@ -1,4 +1,8 @@
 ﻿<%@ Page Title="CoursDelete" Language="C#" MasterPageFile="~/MasterPages\Default.Master" CodeBehind="Delete.aspx.cs" Inherits="StephenCiprianMidtermASP.Courses.Delete" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+      <title>Remove a Course</title>
+    <link href="../Content/databaseTables.css" rel="stylesheet" />
+</asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>

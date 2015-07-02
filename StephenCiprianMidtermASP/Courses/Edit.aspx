@@ -1,4 +1,8 @@
 ﻿<%@ Page Title="CoursEdit" Language="C#" MasterPageFile="~/MasterPages\Default.Master" CodeBehind="Edit.aspx.cs" Inherits="StephenCiprianMidtermASP.Courses.Edit" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+      <title>Course Details</title>
+    <link href="../Content/databaseTables.css" rel="stylesheet" />
+</asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>

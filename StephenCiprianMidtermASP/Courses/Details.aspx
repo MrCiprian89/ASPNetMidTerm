@@ -1,4 +1,9 @@
 ﻿<%@ Page Title="Cours Details" Language="C#" MasterPageFile="~/MasterPages\Default.Master" CodeBehind="Details.aspx.cs" Inherits="StephenCiprianMidtermASP.Courses.Details" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+      <title>Course Details</title>
+    <link href="../Content/databaseTables.css" rel="stylesheet" />
+</asp:Content>
+
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
@@ -12,7 +17,7 @@
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Cours Details</legend>
+                    <legend>Course Details</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
 									<strong>Id</strong>

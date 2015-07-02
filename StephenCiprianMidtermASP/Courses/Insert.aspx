@@ -1,4 +1,10 @@
 ﻿<%@ Page Title="CoursInsert" Language="C#" MasterPageFile="~/MasterPages\Default.Master" CodeBehind="Insert.aspx.cs" Inherits="StephenCiprianMidtermASP.Courses.Insert" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+      <title>Insert a Course</title>
+    <link href="../Content/databaseTables.css" rel="stylesheet" />
+</asp:Content>
+
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
